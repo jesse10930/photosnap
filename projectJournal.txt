@@ -1,0 +1,25 @@
+6/22/21
+	OK, last project went well. I'm expecting this project to be fairly similar because it's another multi-page website. CSS grid heavy, but nothing crazy. Not much intro to this one.
+Just going to dive in.
+
+Project Goals:
+	1. Gameplan this project really well.
+	2. Continue to improve my HTML, CSS, and JS skills.
+	3. Keep my code clear, clean, concise.
+	4. CSS Grid in particular.
+	5. I'm going to look over the project and estimate how long this will take. Should start getting a better feel for this kind of thing. Last project took 7 days to complete. This
+	   is a bit bigger, but shouldn't take that much longer. Let's say this will be a 10 day project. I'll consider off-days a complete day and work-days a half day. 
+
+Each day I code, I'm going to make a journal entry with the following structure:
+	A. What I plan to do today.
+	B. What I ended up doing today.
+	C. Any problems/issues/bugs that came up today.
+	D. How I solved those problems/issues/bugs.
+	E. Lessons from today
+
+Day 1 - 6/22/21
+	A. What I plan to do today is go through the readme to fully understand the project, get the GitHub repo up, and write out the HTML.
+	B. 
+	C. 
+	D. 
+	E. Npm is becoming annoying. It seems to behave differently every time I start a new project. Not sure why.

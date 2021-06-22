@@ -1,0 +1,170 @@
+// Classes
+
+// Text
+.text {
+  font-family: $dm-sans;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.hr-1-large {
+  font-family: $dm-sans;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hr-2 {
+  font-family: $dm-sans;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hr-2-large {
+  font-family: $dm-sans;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hr-3 {
+  font-family: $dm-sans;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hr-4 {
+  font-family: $dm-sans;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+// Buttons
+.btn-1 {
+  height: 40px;
+  width: 158px;
+  background: $black;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: $white;
+  font-family: $dm-sans;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  &:hover {
+    cursor: pointer;
+    background: $light-grey;
+    color: $black;
+  }
+}
+
+.btn-2 {
+  height: 16px;
+  width: 132px;
+  background: $white;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: $black;
+  font-family: $dm-sans;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.btn-3 {
+  height: 40px;
+  width: 158px;
+  background: $white;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: $black;
+  font-family: $dm-sans;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  &:hover {
+    cursor: pointer;
+    background: $light-grey;
+    color: $black;
+  }
+}
+
+.btn-4 {
+  height: 16px;
+  width: 165px;
+  background: $black;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: $white;
+  font-family: $dm-sans;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+// Header
+.head-cur {
+  border-bottom: solid 2px $light-grey;
+}
+
+// Footer
+.foot-cur {
+  border-bottom: solid 3px $dark-grey;
+}
+
+// Icons
+.fa-github {
+  color: $white;
+
+  &:hover {
+    color: #bd2c00;
+  }
+}
+
+.fa-linkedin {
+  color: $white;
+
+  &:hover {
+    color: #0077b5;
+  }
+}
+
+.fa-free-code-camp {
+  color: $white;
+
+  &:hover {
+    color: #006400;
+  }
+}
+
+.fa-twitter {
+  color: $white;
+
+  &:hover {
+    color: #1da1f2;
+  }
+}

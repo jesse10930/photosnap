@@ -1,0 +1,196 @@
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px; }
+
+.hr-1-large {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.hr-2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.hr-2-large {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.hr-3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.hr-4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.btn-1 {
+  height: 40px;
+  width: 158px;
+  background: #000000;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  .btn-1:hover {
+    cursor: pointer;
+    background: #dfdfdf;
+    color: #000000; }
+
+.btn-2 {
+  height: 16px;
+  width: 132px;
+  background: #ffffff;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  .btn-2:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+
+.btn-3 {
+  height: 40px;
+  width: 158px;
+  background: #ffffff;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  .btn-3:hover {
+    cursor: pointer;
+    background: #dfdfdf;
+    color: #000000; }
+
+.btn-4 {
+  height: 16px;
+  width: 165px;
+  background: #000000;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  .btn-4:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+
+.head-cur {
+  border-bottom: solid 2px #dfdfdf; }
+
+.foot-cur {
+  border-bottom: solid 3px #4c4c4c; }
+
+.fa-github {
+  color: #ffffff; }
+  .fa-github:hover {
+    color: #bd2c00; }
+
+.fa-linkedin {
+  color: #ffffff; }
+  .fa-linkedin:hover {
+    color: #0077b5; }
+
+.fa-free-code-camp {
+  color: #ffffff; }
+  .fa-free-code-camp:hover {
+    color: #006400; }
+
+.fa-twitter {
+  color: #ffffff; }
+  .fa-twitter:hover {
+    color: #1da1f2; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #ffffff;
+  font-family: 'DM Sans', sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  padding: 0 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px; }
+  header ul {
+    display: flex; }
+  header li {
+    padding: 0 2rem; }
+    header li a {
+      color: #000000; }
+      header li a:hover {
+        color: #dfdfdf; }
+
+footer {
+  background: #000000;
+  color: #ffffff;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7rem; }
+  footer #footer-left {
+    display: flex;
+    align-items: center; }
+    footer #footer-left #footer-left-left {
+      height: 115px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 100px; }
+      footer #footer-left #footer-left-left #socials a {
+        margin-right: 10px; }
+        footer #footer-left #footer-left-left #socials a img {
+          width: 28px;
+          height: 28px; }
+    footer #footer-left #footer-left-right li {
+      padding: 0.5rem 0; }
+      footer #footer-left #footer-left-right li a {
+        color: #ffffff; }
+        footer #footer-left #footer-left-right li a:hover {
+          color: #4c4c4c; }
+  footer #footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end; }
+    footer #footer-right #copyright {
+      color: #4c4c4c; }
