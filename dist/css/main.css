@@ -8,19 +8,12 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: bold;
-  letter-spacing: 2px; }
+  letter-spacing: 4px; }
 
 .hr-2 {
   font-family: "DM Sans", sans-serif;
   font-size: 24px;
   line-height: 25px;
-  font-weight: bold;
-  letter-spacing: 2px; }
-
-.hr-2-large {
-  font-family: "DM Sans", sans-serif;
-  font-size: 40px;
-  line-height: 48px;
   font-weight: bold;
   letter-spacing: 2px; }
 
@@ -35,7 +28,7 @@
   font-family: "DM Sans", sans-serif;
   font-size: 12px;
   line-height: 16px;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: 2px; }
 
 .btn-1 {
@@ -57,7 +50,7 @@
 
 .btn-2 {
   height: 16px;
-  width: 132px;
+  width: 195px;
   background: #ffffff;
   align-items: center;
   text-align: center;
@@ -130,6 +123,60 @@
   .fa-twitter:hover {
     color: #1da1f2; }
 
+.pic-right {
+  height: 600px;
+  display: flex; }
+
+.pic-left {
+  height: 600px;
+  display: flex; }
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 175px 6rem;
+  height: 250px; }
+
+.cards {
+  display: flex; }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 25%;
+  padding: 2rem 3rem;
+  justify-content: flex-end;
+  color: #ffffff; }
+
+.bot-line {
+  position: absolute;
+  bottom: 65px;
+  left: 13%;
+  width: 74%;
+  height: 1px;
+  background: #ffffff;
+  opacity: 0.5; }
+
+.card-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .card-bot img {
+    margin-top: 20px; }
+
+.card-title {
+  margin-bottom: 5px; }
+
+.card-author {
+  margin-bottom: 5px; }
+
+.card-read {
+  font-weight: bold;
+  margin-top: 25px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -159,6 +206,44 @@ header {
       color: #000000; }
       header li a:hover {
         color: #dfdfdf; }
+
+#home-a {
+  display: flex;
+  flex-direction: column; }
+  #home-a #home-a-top {
+    background: #000000;
+    color: #ffffff; }
+    #home-a #home-a-top p {
+      color: #dfdfdf; }
+  #home-a #home-a-mid {
+    background: #ffffff;
+    color: #000000; }
+  #home-a #home-a-bot {
+    background: #000000;
+    color: #ffffff; }
+    #home-a #home-a-bot p {
+      color: #dfdfdf; }
+    #home-a #home-a-bot button {
+      width: 195px; }
+
+#home-b {
+  display: flex; }
+  #home-b #mountains-card {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #home-b #sunset-city-card {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/cityscapes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #home-b #days-card {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/18-days-voyage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #home-b #architecturals-card {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/architecturals.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 footer {
   background: #000000;

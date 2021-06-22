@@ -12,21 +12,13 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .hr-2 {
   font-family: $dm-sans;
   font-size: 24px;
   line-height: 25px;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.hr-2-large {
-  font-family: $dm-sans;
-  font-size: 40px;
-  line-height: 48px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -43,7 +35,7 @@
   font-family: $dm-sans;
   font-size: 12px;
   line-height: 16px;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -70,7 +62,7 @@
 
 .btn-2 {
   height: 16px;
-  width: 132px;
+  width: 195px;
   background: $white;
   align-items: center;
   text-align: center;
@@ -167,4 +159,71 @@
   &:hover {
     color: #1da1f2;
   }
+}
+
+// Layout
+.pic-right {
+  height: 600px;
+  display: flex;
+}
+
+.pic-left {
+  height: 600px;
+  display: flex;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 175px 6rem;
+  height: 250px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 25%;
+  padding: 2rem 3rem;
+  justify-content: flex-end;
+  color: $white;
+}
+
+.bot-line {
+  position: absolute;
+  bottom: 65px;
+  left: 13%;
+  width: 74%;
+  height: 1px;
+  background: $white;
+  opacity: 0.5;
+}
+
+.card-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    margin-top: 20px;
+  }
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.card-author {
+  margin-bottom: 5px;
+}
+
+.card-read {
+  font-weight: bold;
+  margin-top: 25px;
 }
