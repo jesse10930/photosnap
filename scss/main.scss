@@ -352,6 +352,182 @@ header {
   }
 }
 
+// Features
+#features-a {
+  #color-bar {
+    position: absolute;
+    height: 144px;
+    width: 6px;
+    left: 0;
+    top: 250px;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+  }
+}
+
+#features-b {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .card-row {
+    padding: 0 12rem;
+  }
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+#features-c {
+  background-image: url('../images/shared/desktop/bg-beta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  height: 280px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7rem;
+
+  #color-bar {
+    position: absolute;
+    height: 280px;
+    width: 6px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+  }
+
+  h1 {
+    width: 35%;
+  }
+}
+
+// Pricing
+#pricing-a {
+  #color-bar {
+    position: absolute;
+    height: 144px;
+    width: 6px;
+    left: 0;
+    top: 250px;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+  }
+}
+
+#pricing-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 160px;
+  color: $light-grey;
+
+  #month-year-cont {
+    display: flex;
+    padding-bottom: 48px;
+    align-items: center;
+
+    #switch {
+      height: 32px;
+      width: 64px;
+      background: $light-grey;
+      border-radius: 16px;
+      margin: 0 32px;
+      position: relative;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      #circle {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background: $black;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+      }
+    }
+  }
+
+  #options-container {
+    display: flex;
+
+    #basic-yr-pr {
+      display: none;
+    }
+    #pro-yr-pr {
+      display: none;
+    }
+    #bus-yr-pr {
+      display: none;
+    }
+  }
+}
+
+#pricing-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 160px;
+
+  #chart {
+    height: 730px;
+    width: 550px;
+  }
+}
+
+#pricing-d {
+  background-image: url('../images/shared/desktop/bg-beta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  height: 280px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7rem;
+
+  #color-bar {
+    position: absolute;
+    height: 280px;
+    width: 6px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+  }
+
+  h1 {
+    width: 35%;
+  }
+}
+
 // Footer
 footer {
   background: $black;

@@ -161,7 +161,7 @@
   }
 }
 
-// Layout
+// Home Layout
 .pic-right {
   height: 600px;
   display: flex;
@@ -180,6 +180,7 @@
   height: 250px;
 }
 
+// Picture Grid
 .cards {
   display: flex;
 }
@@ -225,6 +226,7 @@
   }
 }
 
+// Bottom Line on Card
 .bot-line {
   position: absolute;
   bottom: 65px;
@@ -235,6 +237,7 @@
   opacity: 0.5;
 }
 
+// Picture Card Layout
 .card-bot {
   display: flex;
   justify-content: space-between;
@@ -262,7 +265,15 @@
   margin-top: 25px;
 }
 
-.home-c-card {
+// Row of Cards Layout
+.card-row {
+  height: 300px;
+  display: flex;
+  padding: 5rem 12rem;
+}
+
+// Description Card
+.description-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,4 +295,118 @@
   p {
     color: $dark-grey;
   }
+}
+
+// Features/Price Pic on Right Layout
+.feat-pr-pic-rt {
+  display: flex;
+}
+
+.feat-pr-desc {
+  height: 490px;
+  background: $black;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 10rem;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $light-grey;
+  }
+}
+
+// Pricing Options
+.option {
+  width: 270px;
+  height: 400px;
+  background: $light-grey;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin: 0 15px;
+  padding: 0 40px;
+  transition: all 0.5s ease;
+
+  &:before {
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  &:hover {
+    background: $black;
+    color: $white;
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s ease;
+
+    &:before {
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+
+    button {
+      background: $white;
+      color: $black;
+
+      &:hover {
+        background: $light-grey;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// Toggle Switch
+.active {
+  color: $black;
+}
+
+// Pricing Chart
+.chart-row {
+  text-transform: uppercase;
+  border-bottom: solid $light-grey 1px;
+  display: grid;
+  grid-template-columns: 49% 17% 17% 17%;
+  padding: 2rem 0 2rem 5px;
+
+  &:first-child {
+    border-bottom: solid 1px $black;
+  }
+}
+
+.check {
+  background-image: url('../images/pricing/desktop/check.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.second,
+.third,
+.fourth {
+  text-align: center;
 }
