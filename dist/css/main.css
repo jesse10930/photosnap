@@ -282,6 +282,21 @@
 .active {
   color: #000000; }
 
+.def-oval {
+  background: #dfdfdf; }
+
+.def-circ {
+  background: #000000;
+  transition: all 0.5s ease; }
+
+.oval-clicked {
+  background: #000000; }
+
+.circle-clicked {
+  background: #ffffff;
+  transform: translate(32px, 0);
+  transition: all 0.5s ease; }
+
 .chart-row {
   text-transform: uppercase;
   border-bottom: solid #dfdfdf 1px;
@@ -545,9 +560,9 @@ header {
     padding-bottom: 48px;
     align-items: center; }
     #pricing-b #month-year-cont #switch {
+      border: none;
       height: 32px;
       width: 64px;
-      background: #dfdfdf;
       border-radius: 16px;
       margin: 0 32px;
       position: relative; }
@@ -557,18 +572,11 @@ header {
         height: 24px;
         width: 24px;
         border-radius: 50%;
-        background: #000000;
         position: absolute;
         top: 4px;
         left: 4px; }
   #pricing-b #options-container {
     display: flex; }
-    #pricing-b #options-container #basic-yr-pr {
-      display: none; }
-    #pricing-b #options-container #pro-yr-pr {
-      display: none; }
-    #pricing-b #options-container #bus-yr-pr {
-      display: none; }
 
 #pricing-c {
   display: flex;

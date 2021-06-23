@@ -55,32 +55,31 @@
   <section id="pricing-b">
     <div id="month-year-cont">
       <div id="monthly" class="active">Monthly</div>
-      <div id="switch">
-        <div id="circle"></div>
-      </div>
+      <button id="switch" value="toggle" class="def-oval">
+        <div id="circle" value="toggle" class="def-circ"></div>
+      </button>
       <div id="yearly">Yearly</div>
     </div>
     <div id="options-container">
       <div id="basic-option" class="option">
         <h2 class="hr-2">Basic</h2>
         <p class="text">Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
-        <span id="basic-mon-pr"><h1 class="hr-1-large">$19.00</h1> per month</span>
-        <span id="basic-yr-pr"><h1 class="hr-1-large">$190.00</h1> per year</span>
-        
+        <span id="basic-mon-pr" style="display: block;"><h1 class="hr-1-large">$19.00</h1> per month</span>
+        <span id="basic-yr-pr" style="display: none;"><h1 class="hr-1-large">$190.00</h1> per year</span>
         <button class="btn-1">Pick Plan</button>
       </div>
       <div id="pro-option" class="option">
         <h2 class="hr-2">Pro</h2>
         <p class="text">More advanced features available. Recommended for photography veterans and professionals.</p>
-        <span id="pro-mon-pr"><h1 class="hr-1-large">$39.00</h1> per month</span>
-        <span id="pro-yr-pr"><h1 class="hr-1-large">$390.00</h1> per year</span>
+        <span id="pro-mon-pr" style="display: block;"><h1 class="hr-1-large">$39.00</h1> per month</span>
+        <span id="pro-yr-pr" style="display: none;"><h1 class="hr-1-large">$390.00</h1> per year</span>
         <button class="btn-1">Pick Plan</button>   
       </div>
       <div id="business-option" class="option">
         <h2 class="hr-2">Business</h2>
         <p class="text">Additional features available such as more detailed metrics. Recommended for business owners.</p>
-        <span id="bus-mon-pr"><h1 class="hr-1-large">$99.00</h1> per month</span>
-        <span id="bus-yr-pr"><h1 class="hr-1-large">$990.00</h1> per year</span>
+        <span id="bus-mon-pr" style="display: block;"><h1 class="hr-1-large">$99.00</h1> per month</span>
+        <span id="bus-yr-pr" style="display: none;"><h1 class="hr-1-large">$990.00</h1> per year</span>
         <button class="btn-1">Pick Plan</button>  
       </div>
     </div>
@@ -205,5 +204,7 @@
     </div>
   </footer>
 
+  <!-- JavaScript -->
+  <script src="js/toggle.js"></script>
 </body>
 </html>

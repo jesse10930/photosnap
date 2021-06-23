@@ -386,6 +386,25 @@
   color: $black;
 }
 
+.def-oval {
+  background: $light-grey;
+}
+
+.def-circ {
+  background: $black;
+  transition: all 0.5s ease;
+}
+
+.oval-clicked {
+  background: $black;
+}
+
+.circle-clicked {
+  background: $white;
+  transform: translate(32px, 0);
+  transition: all 0.5s ease;
+}
+
 // Pricing Chart
 .chart-row {
   text-transform: uppercase;

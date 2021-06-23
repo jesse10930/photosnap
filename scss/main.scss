@@ -447,9 +447,9 @@ header {
     align-items: center;
 
     #switch {
+      border: none;
       height: 32px;
       width: 64px;
-      background: $light-grey;
       border-radius: 16px;
       margin: 0 32px;
       position: relative;
@@ -462,7 +462,6 @@ header {
         height: 24px;
         width: 24px;
         border-radius: 50%;
-        background: $black;
         position: absolute;
         top: 4px;
         left: 4px;
@@ -472,16 +471,6 @@ header {
 
   #options-container {
     display: flex;
-
-    #basic-yr-pr {
-      display: none;
-    }
-    #pro-yr-pr {
-      display: none;
-    }
-    #bus-yr-pr {
-      display: none;
-    }
   }
 }
 
