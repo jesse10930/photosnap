@@ -57,6 +57,20 @@ header {
     background: $black;
     color: $white;
 
+    #color-bar {
+      position: absolute;
+      height: 300px;
+      width: 6px;
+      left: 0;
+      top: 225px;
+      background: linear-gradient(
+        26.57deg,
+        #ffc593 0%,
+        #bc7198 43.29%,
+        #5a77ff 83.33%
+      );
+    }
+
     p {
       color: $light-grey;
     }
@@ -121,6 +135,218 @@ header {
         rgba(0, 0, 0, 0.7) 90%
       ),
       url('../images/stories/desktop/architecturals.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+#home-c {
+  height: 300px;
+  display: flex;
+  padding: 5rem 12rem;
+}
+
+// Stories
+#stories-a {
+  height: 500px;
+  background-image: radial-gradient(
+      68.48% 68.48% at -15% 115%,
+      #ffc593 0%,
+      rgba(188, 113, 152, 0.496968) 52.36%,
+      rgba(90, 119, 255, 0.0001) 100%
+    ),
+    url('../images/stories/desktop/moon-of-appalacia.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $white;
+  padding: 5rem;
+
+  #stories-a-content {
+    width: 25%;
+
+    h1 {
+      margin-bottom: 24px;
+    }
+
+    h4 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 24px;
+    }
+
+    h3 {
+      width: 150px;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#stories-b {
+  #mountains-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sunset-city-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/cityscapes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #days-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/18-days-voyage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #architecturals-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/architecturals.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #world-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/world-tour.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #unforeseen-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/unforeseen-corners.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #king-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/king-on-africa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #nowhere-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/trip-to-nowhere.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #rage-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/rage-of-the-sea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #running-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/running-free.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #behind-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/behind-the-waves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #calm-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/calm-waters.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #milky-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/milky-way.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #night-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/dark-forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #somwarts-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/somwarpet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #land-card {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      url('../images/stories/desktop/land-of-dreams.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }

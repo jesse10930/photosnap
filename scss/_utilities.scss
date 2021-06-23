@@ -193,6 +193,36 @@
   padding: 2rem 3rem;
   justify-content: flex-end;
   color: $white;
+  transition: all 0.5s ease;
+
+  &:after {
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: translate(0, -50px);
+    transition: all 0.5s ease;
+
+    &:after {
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  }
 }
 
 .bot-line {
@@ -215,6 +245,10 @@
   }
 }
 
+.card-date {
+  margin-bottom: 5px;
+}
+
 .card-title {
   margin-bottom: 5px;
 }
@@ -226,4 +260,28 @@
 .card-read {
   font-weight: bold;
   margin-top: 25px;
+}
+
+.home-c-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0 2rem;
+
+  img {
+    height: 72px;
+    width: 72px;
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: $dark-grey;
+  }
 }
