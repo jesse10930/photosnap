@@ -441,6 +441,10 @@ header {
   padding-bottom: 160px;
   color: $light-grey;
 
+  #color-bar {
+    display: none;
+  }
+
   #month-year-cont {
     display: flex;
     padding-bottom: 48px;
@@ -573,3 +577,5 @@ footer {
     }
   }
 }
+
+@import 'mobile';

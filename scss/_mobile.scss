@@ -1,1 +1,277 @@
 // Mobile
+
+// Tablet
+@media (max-width: 900px) {
+  // General Classes
+  .home-img {
+    display: none;
+  }
+
+  .home-img-tab {
+    display: block;
+  }
+
+  .feat-img {
+    display: none;
+  }
+
+  .feat-img-tab {
+    display: block;
+  }
+
+  .feat-pr-desc {
+    padding: 0 54px;
+  }
+
+  .description {
+    padding: 0 54px;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    h1 {
+      width: 387px;
+    }
+
+    p {
+      width: 387px;
+    }
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 50%;
+    padding: 2rem 0;
+    transition: none;
+    transform: none;
+
+    .card-date,
+    .card-title,
+    .card-author,
+    .card-bot {
+      margin: 0 3rem;
+    }
+
+    &:after {
+      display: none;
+      transition: none;
+      transform: none;
+    }
+
+    &:hover {
+      transform: none;
+      transition: none;
+    }
+  }
+
+  .description-card {
+    margin: 0 5px 4rem 5px;
+    padding: 0;
+    width: 48%;
+  }
+
+  .card-row {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  // Header
+  header {
+    padding: 0 10px;
+  }
+
+  // Home
+  #home-c {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7rem;
+    height: auto;
+  }
+
+  // Stories
+  #stories-a {
+    background-image: url('../images/stories/tablet/moon-of-appalacia.jpg');
+
+    #stories-a-content {
+      width: 65%;
+    }
+  }
+
+  // Features
+  #features-b {
+    height: 800px;
+
+    #weird-card {
+      margin-left: 50%;
+    }
+
+    #weird-row {
+      margin-top: -3rem;
+    }
+
+    .card-row {
+      padding: 0;
+    }
+  }
+
+  #features-c {
+    background-image: url('../images/shared/tablet/bg-beta.jpg');
+    padding: 0 2.5rem;
+
+    h1 {
+      width: 65%;
+    }
+  }
+
+  // Pricing
+  #pricing-b {
+    #options-container {
+      flex-direction: column;
+      width: 100%;
+
+      #pro-option {
+        background: $black;
+        color: $white;
+
+        #color-bar {
+          display: block;
+          position: absolute;
+          height: 270px;
+          width: 6px;
+          left: 0;
+          top: 0;
+          background: linear-gradient(
+            26.57deg,
+            #ffc593 0%,
+            #bc7198 43.29%,
+            #5a77ff 83.33%
+          );
+        }
+
+        button {
+          background: $white;
+          color: $black;
+        }
+
+        p {
+          color: $light-grey;
+        }
+      }
+
+      .option {
+        width: 94%;
+        height: 270px;
+        margin: 3%;
+        padding: 0;
+        position: relative;
+        transition: none;
+        transform: none;
+
+        h2 {
+          position: absolute;
+          top: 10%;
+          left: 5%;
+        }
+
+        p {
+          position: absolute;
+          top: 25%;
+          left: 5%;
+          width: 30%;
+          text-align: left;
+        }
+
+        span {
+          position: absolute;
+          top: 5%;
+          right: 5%;
+        }
+
+        button {
+          position: absolute;
+          top: 70%;
+          left: 5%;
+          width: 40%;
+        }
+
+        &:hover {
+          background: $light-grey;
+          color: $black;
+          transform: none;
+          transition: none;
+
+          &:before {
+            display: none;
+          }
+
+          button {
+            background: $black;
+            color: $white;
+
+            &:hover {
+              background: $black;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #pricing-c {
+    #chart {
+      width: 650px;
+      height: 680px;
+    }
+  }
+
+  #pricing-d {
+    background-image: url('../images/shared/tablet/bg-beta.jpg');
+    padding: 0 3rem;
+
+    h1 {
+      width: 65%;
+    }
+  }
+
+  // Footer
+  footer {
+    padding: 0 3rem;
+    height: 300px;
+
+    #footer-left {
+      position: relative;
+
+      #footer-left-left {
+        height: 200px;
+      }
+
+      #footer-left-right {
+        position: absolute;
+        top: 100px;
+
+        ul {
+          display: flex;
+          flex-direction: row;
+
+          li {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    #footer-right {
+      height: 200px;
+      justify-content: space-between;
+      align-self: center;
+    }
+  }
+}
+
+// Mobile
+@media (max-width: 500px) {
+}

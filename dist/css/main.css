@@ -138,6 +138,12 @@
   padding: 175px 6rem;
   height: 250px; }
 
+.home-img-tab,
+.home-img-phone,
+.feat-img-tab,
+.feat-img-phone {
+  display: none; }
+
 .cards {
   display: flex; }
 
@@ -555,6 +561,8 @@ header {
   padding-top: 120px;
   padding-bottom: 160px;
   color: #dfdfdf; }
+  #pricing-b #color-bar {
+    display: none; }
   #pricing-b #month-year-cont {
     display: flex;
     padding-bottom: 48px;
@@ -642,3 +650,160 @@ footer {
     align-items: flex-end; }
     footer #footer-right #copyright {
       color: #4c4c4c; }
+
+@media (max-width: 900px) {
+  .home-img {
+    display: none; }
+  .home-img-tab {
+    display: block; }
+  .feat-img {
+    display: none; }
+  .feat-img-tab {
+    display: block; }
+  .feat-pr-desc {
+    padding: 0 54px; }
+  .description {
+    padding: 0 54px;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto; }
+    .description h1 {
+      width: 387px; }
+    .description p {
+      width: 387px; }
+  .cards {
+    flex-wrap: wrap; }
+  .card {
+    width: 50%;
+    padding: 2rem 0;
+    transition: none;
+    transform: none; }
+    .card .card-date,
+    .card .card-title,
+    .card .card-author,
+    .card .card-bot {
+      margin: 0 3rem; }
+    .card:after {
+      display: none;
+      transition: none;
+      transform: none; }
+    .card:hover {
+      transform: none;
+      transition: none; }
+  .description-card {
+    margin: 0 5px 4rem 5px;
+    padding: 0;
+    width: 48%; }
+  .card-row {
+    padding: 0;
+    flex-wrap: wrap; }
+  header {
+    padding: 0 10px; }
+  #home-c {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7rem;
+    height: auto; }
+  #stories-a {
+    background-image: url("../images/stories/tablet/moon-of-appalacia.jpg"); }
+    #stories-a #stories-a-content {
+      width: 65%; }
+  #features-b {
+    height: 800px; }
+    #features-b #weird-card {
+      margin-left: 50%; }
+    #features-b #weird-row {
+      margin-top: -3rem; }
+    #features-b .card-row {
+      padding: 0; }
+  #features-c {
+    background-image: url("../images/shared/tablet/bg-beta.jpg");
+    padding: 0 2.5rem; }
+    #features-c h1 {
+      width: 65%; }
+  #pricing-b #options-container {
+    flex-direction: column;
+    width: 100%; }
+    #pricing-b #options-container #pro-option {
+      background: #000000;
+      color: #ffffff; }
+      #pricing-b #options-container #pro-option #color-bar {
+        display: block;
+        position: absolute;
+        height: 270px;
+        width: 6px;
+        left: 0;
+        top: 0;
+        background: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%); }
+      #pricing-b #options-container #pro-option button {
+        background: #ffffff;
+        color: #000000; }
+      #pricing-b #options-container #pro-option p {
+        color: #dfdfdf; }
+    #pricing-b #options-container .option {
+      width: 94%;
+      height: 270px;
+      margin: 3%;
+      padding: 0;
+      position: relative;
+      transition: none;
+      transform: none; }
+      #pricing-b #options-container .option h2 {
+        position: absolute;
+        top: 10%;
+        left: 5%; }
+      #pricing-b #options-container .option p {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        width: 30%;
+        text-align: left; }
+      #pricing-b #options-container .option span {
+        position: absolute;
+        top: 5%;
+        right: 5%; }
+      #pricing-b #options-container .option button {
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        width: 40%; }
+      #pricing-b #options-container .option:hover {
+        background: #dfdfdf;
+        color: #000000;
+        transform: none;
+        transition: none; }
+        #pricing-b #options-container .option:hover:before {
+          display: none; }
+        #pricing-b #options-container .option:hover button {
+          background: #000000;
+          color: #ffffff; }
+          #pricing-b #options-container .option:hover button:hover {
+            background: #000000;
+            cursor: pointer; }
+  #pricing-c #chart {
+    width: 650px;
+    height: 680px; }
+  #pricing-d {
+    background-image: url("../images/shared/tablet/bg-beta.jpg");
+    padding: 0 3rem; }
+    #pricing-d h1 {
+      width: 65%; }
+  footer {
+    padding: 0 3rem;
+    height: 300px; }
+    footer #footer-left {
+      position: relative; }
+      footer #footer-left #footer-left-left {
+        height: 200px; }
+      footer #footer-left #footer-left-right {
+        position: absolute;
+        top: 100px; }
+        footer #footer-left #footer-left-right ul {
+          display: flex;
+          flex-direction: row; }
+          footer #footer-left #footer-left-right ul li {
+            margin-right: 10px; }
+    footer #footer-right {
+      height: 200px;
+      justify-content: space-between;
+      align-self: center; } }

@@ -180,6 +180,13 @@
   height: 250px;
 }
 
+.home-img-tab,
+.home-img-phone,
+.feat-img-tab,
+.feat-img-phone {
+  display: none;
+}
+
 // Picture Grid
 .cards {
   display: flex;

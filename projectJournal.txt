@@ -19,7 +19,22 @@ Each day I code, I'm going to make a journal entry with the following structure:
 
 Day 1 - 6/22/21
 	A. What I plan to do today is go through the readme to fully understand the project, get the GitHub repo up, and write out the HTML.
+	B. What I did today was go through the Readme, get the repo up, write the html and css for the home and stories pages.
+	C. 
+	D. 
+	E. Npm is becoming annoying. It seems to behave differently every time I start a new project. Not sure why. This was way more than I intended, but that seems like a good thing.
+
+Day 2 - 6/23/21
+	A. What I plan to do today is finish the third page (features) entirely.
+	B. What I did today was finish the third and fourth pages. Which is everything for the desktop version, html, css, js.
+	C.
+	D.
+	E. This project was very easy. I can't believe how quickly it went. I almost don't want to do the mobile bc of how simple the desktop was, but I'm going to do it anyway. I'm super
+	   pumped.
+
+Day 3 - 6/24/21
+	A. What I plan to do today is the tablet media queries.
 	B. 
 	C. 
 	D. 
-	E. Npm is becoming annoying. It seems to behave differently every time I start a new project. Not sure why.
+	E. 
