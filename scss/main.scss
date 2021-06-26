@@ -46,6 +46,17 @@ header {
       }
     }
   }
+
+  #header-btn {
+    display: inline;
+  }
+
+  #hamburger-img,
+  #close-img,
+  #dropdown-menu,
+  #overlay {
+    display: none;
+  }
 }
 
 // Home

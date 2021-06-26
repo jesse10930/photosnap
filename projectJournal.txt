@@ -34,7 +34,14 @@ Day 2 - 6/23/21
 
 Day 3 - 6/24/21
 	A. What I plan to do today is the tablet media queries.
-	B. 
+	B. What I did today was the tablet media queries.
+	C. 1. Removing hover effects for mobile is a bit confusing.
+	D. 1. I have a solution but it's ugly. I should figure this one out for real.
+	E. Did this in 3-4 hours. If I had more time, I could probably finish this project today. I'm honestly surprising myself at this point.
+
+Day 4 - 6/26/21
+	A. What I plan to do today is work on the mobile media queries. I only have a few hours this morning but I'm hoping to get a lot done.
+	B. What I did today was the home mobile media queries. Now, wedding time.
 	C. 
 	D. 
 	E. 
