@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/4-page-website-html5-semantics-css3-and-sass-javascript-4D_irZNxL](https://www.frontendmentor.io/solutions/4-page-website-html5-semantics-css3-and-sass-javascript-4D_irZNxL)
+- Live Site URL: [https://optimistic-ardinghelli-bc9a00.netlify.app/](https://optimistic-ardinghelli-bc9a00.netlify.app/)
 
 ## My process
 
@@ -45,6 +45,7 @@ Users should be able to:
 - Sass for styling
 - Figma for design
 - Node Sass for development
+- Netlify for deployment
 
 ### What I learned
 
