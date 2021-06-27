@@ -115,7 +115,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/mountains.jpg');
+      url('/images/stories/desktop/mountains.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -125,7 +125,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/cityscapes.jpg');
+      url('/images/stories/desktop/cityscapes.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -135,7 +135,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/18-days-voyage.jpg');
+      url('/images/stories/desktop/18-days-voyage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -145,7 +145,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/architecturals.jpg');
+      url('/images/stories/desktop/architecturals.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -166,7 +166,7 @@ header {
       rgba(188, 113, 152, 0.496968) 52.36%,
       rgba(90, 119, 255, 0.0001) 100%
     ),
-    url('../images/stories/desktop/moon-of-appalacia.jpg');
+    url('/images/stories/desktop/moon-of-appalacia.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -174,6 +174,10 @@ header {
   justify-content: center;
   color: $white;
   padding: 5rem;
+
+  #stories-a-mobile {
+    display: none;
+  }
 
   #stories-a-content {
     width: 25%;
@@ -207,7 +211,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/mountains.jpg');
+      url('/images/stories/desktop/mountains.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -217,7 +221,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/cityscapes.jpg');
+      url('/images/stories/desktop/cityscapes.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -227,7 +231,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/18-days-voyage.jpg');
+      url('/images/stories/desktop/18-days-voyage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -237,7 +241,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/architecturals.jpg');
+      url('/images/stories/desktop/architecturals.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -247,7 +251,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/world-tour.jpg');
+      url('/images/stories/desktop/world-tour.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -257,7 +261,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/unforeseen-corners.jpg');
+      url('/images/stories/desktop/unforeseen-corners.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -267,7 +271,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/king-on-africa.jpg');
+      url('/images/stories/desktop/king-on-africa.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -277,7 +281,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/trip-to-nowhere.jpg');
+      url('/images/stories/desktop/trip-to-nowhere.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -287,7 +291,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/rage-of-the-sea.jpg');
+      url('/images/stories/desktop/rage-of-the-sea.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -297,7 +301,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/running-free.jpg');
+      url('/images/stories/desktop/running-free.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -307,7 +311,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/behind-the-waves.jpg');
+      url('/images/stories/desktop/behind-the-waves.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -317,7 +321,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/calm-waters.jpg');
+      url('/images/stories/desktop/calm-waters.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -327,7 +331,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/milky-way.jpg');
+      url('/images/stories/desktop/milky-way.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -337,7 +341,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/dark-forest.jpg');
+      url('/images/stories/desktop/dark-forest.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -347,7 +351,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/somwarpet.jpg');
+      url('/images/stories/desktop/somwarpet.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -357,7 +361,7 @@ header {
         rgba(255, 255, 255, 0.1) 50%,
         rgba(0, 0, 0, 0.7) 90%
       ),
-      url('../images/stories/desktop/land-of-dreams.jpg');
+      url('/images/stories/desktop/land-of-dreams.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -365,7 +369,7 @@ header {
 
 // Features
 #features-a {
-  #color-bar {
+  #feat-a-color-bar {
     position: absolute;
     height: 144px;
     width: 6px;
@@ -396,7 +400,7 @@ header {
 }
 
 #features-c {
-  background-image: url('../images/shared/desktop/bg-beta.jpg');
+  background-image: url('/images/shared/desktop/bg-beta.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
@@ -407,7 +411,7 @@ header {
   align-items: center;
   padding: 0 7rem;
 
-  #color-bar {
+  #feat-c-color-bar {
     position: absolute;
     height: 280px;
     width: 6px;
@@ -428,7 +432,7 @@ header {
 
 // Pricing
 #pricing-a {
-  #color-bar {
+  #price-a-color-bar {
     position: absolute;
     height: 144px;
     width: 6px;
@@ -452,7 +456,7 @@ header {
   padding-bottom: 160px;
   color: $light-grey;
 
-  #color-bar {
+  #price-b-color-bar {
     display: none;
   }
 
@@ -501,8 +505,60 @@ header {
   }
 }
 
+#pricing-c-mobile {
+  width: 80%;
+  display: none;
+  flex-direction: column;
+  margin: 0 auto;
+
+  h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+  }
+
+  #mob-chart-title {
+    border-bottom: 2px solid $black;
+  }
+
+  #mob-chart {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+
+    .mob-chart-row {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 2px solid $light-grey;
+      padding-bottom: 15px;
+
+      .mob-chart-row-titles {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+
+        p {
+          text-transform: uppercase;
+          font-size: 10px;
+          letter-spacing: 1.67px;
+        }
+      }
+
+      .checks {
+        display: grid;
+        grid-template-columns: 37% 32% 25%;
+
+        .check {
+          width: 16px;
+          height: 12px;
+        }
+      }
+    }
+  }
+}
+
 #pricing-d {
-  background-image: url('../images/shared/desktop/bg-beta.jpg');
+  background-image: url('/images/shared/desktop/bg-beta.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
@@ -513,7 +569,7 @@ header {
   align-items: center;
   padding: 0 7rem;
 
-  #color-bar {
+  #price-d-color-bar {
     position: absolute;
     height: 280px;
     width: 6px;

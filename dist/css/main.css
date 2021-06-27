@@ -313,7 +313,7 @@
     border-bottom: solid 1px #000000; }
 
 .check {
-  background-image: url("../images/pricing/desktop/check.svg");
+  background-image: url("/images/pricing/desktop/check.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -388,19 +388,19 @@ header {
 #home-b {
   display: flex; }
   #home-b #mountains-card {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/mountains.jpg");
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/mountains.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   #home-b #sunset-city-card {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/cityscapes.jpg");
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/cityscapes.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   #home-b #days-card {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/18-days-voyage.jpg");
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/18-days-voyage.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   #home-b #architecturals-card {
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/architecturals.jpg");
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/architecturals.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
 
@@ -411,7 +411,7 @@ header {
 
 #stories-a {
   height: 500px;
-  background-image: radial-gradient(68.48% 68.48% at -15% 115%, #ffc593 0%, rgba(188, 113, 152, 0.496968) 52.36%, rgba(90, 119, 255, 0.0001) 100%), url("../images/stories/desktop/moon-of-appalacia.jpg");
+  background-image: radial-gradient(68.48% 68.48% at -15% 115%, #ffc593 0%, rgba(188, 113, 152, 0.496968) 52.36%, rgba(90, 119, 255, 0.0001) 100%), url("/images/stories/desktop/moon-of-appalacia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -419,6 +419,8 @@ header {
   justify-content: center;
   color: #ffffff;
   padding: 5rem; }
+  #stories-a #stories-a-mobile {
+    display: none; }
   #stories-a #stories-a-content {
     width: 25%; }
     #stories-a #stories-a-content h1 {
@@ -434,86 +436,86 @@ header {
         text-decoration: underline; }
 
 #stories-b #mountains-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/mountains.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/mountains.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #sunset-city-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/cityscapes.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/cityscapes.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #days-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/18-days-voyage.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/18-days-voyage.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #architecturals-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/architecturals.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/architecturals.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #world-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/world-tour.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/world-tour.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #unforeseen-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/unforeseen-corners.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/unforeseen-corners.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #king-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/king-on-africa.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/king-on-africa.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #nowhere-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/trip-to-nowhere.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/trip-to-nowhere.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #rage-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/rage-of-the-sea.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/rage-of-the-sea.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #running-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/running-free.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/running-free.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #behind-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/behind-the-waves.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/behind-the-waves.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #calm-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/calm-waters.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/calm-waters.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #milky-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/milky-way.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/milky-way.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #night-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/dark-forest.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/dark-forest.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #somwarts-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/somwarpet.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/somwarpet.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #stories-b #land-card {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("../images/stories/desktop/land-of-dreams.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.7) 90%), url("/images/stories/desktop/land-of-dreams.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
-#features-a #color-bar {
+#features-a #feat-a-color-bar {
   position: absolute;
   height: 144px;
   width: 6px;
@@ -532,7 +534,7 @@ header {
     margin-bottom: 30px; }
 
 #features-c {
-  background-image: url("../images/shared/desktop/bg-beta.jpg");
+  background-image: url("/images/shared/desktop/bg-beta.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -542,7 +544,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 7rem; }
-  #features-c #color-bar {
+  #features-c #feat-c-color-bar {
     position: absolute;
     height: 280px;
     width: 6px;
@@ -552,7 +554,7 @@ header {
   #features-c h1 {
     width: 35%; }
 
-#pricing-a #color-bar {
+#pricing-a #price-a-color-bar {
   position: absolute;
   height: 144px;
   width: 6px;
@@ -568,7 +570,7 @@ header {
   padding-top: 120px;
   padding-bottom: 160px;
   color: #dfdfdf; }
-  #pricing-b #color-bar {
+  #pricing-b #price-b-color-bar {
     display: none; }
   #pricing-b #month-year-cont {
     display: flex;
@@ -602,8 +604,43 @@ header {
     height: 730px;
     width: 550px; }
 
+#pricing-c-mobile {
+  width: 80%;
+  display: none;
+  flex-direction: column;
+  margin: 0 auto; }
+  #pricing-c-mobile h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px; }
+  #pricing-c-mobile #mob-chart-title {
+    border-bottom: 2px solid #000000; }
+  #pricing-c-mobile #mob-chart {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px; }
+    #pricing-c-mobile #mob-chart .mob-chart-row {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 2px solid #dfdfdf;
+      padding-bottom: 15px; }
+      #pricing-c-mobile #mob-chart .mob-chart-row .mob-chart-row-titles {
+        display: flex;
+        width: 90%;
+        justify-content: space-between; }
+        #pricing-c-mobile #mob-chart .mob-chart-row .mob-chart-row-titles p {
+          text-transform: uppercase;
+          font-size: 10px;
+          letter-spacing: 1.67px; }
+      #pricing-c-mobile #mob-chart .mob-chart-row .checks {
+        display: grid;
+        grid-template-columns: 37% 32% 25%; }
+        #pricing-c-mobile #mob-chart .mob-chart-row .checks .check {
+          width: 16px;
+          height: 12px; }
+
 #pricing-d {
-  background-image: url("../images/shared/desktop/bg-beta.jpg");
+  background-image: url("/images/shared/desktop/bg-beta.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -613,7 +650,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 7rem; }
-  #pricing-d #color-bar {
+  #pricing-d #price-d-color-bar {
     position: absolute;
     height: 280px;
     width: 6px;
@@ -709,10 +746,11 @@ footer {
   #home-c {
     display: flex;
     flex-direction: column;
-    padding: 5rem 7rem;
-    height: auto; }
+    padding: 5rem 0;
+    height: auto;
+    align-items: center; }
   #stories-a {
-    background-image: url("../images/stories/tablet/moon-of-appalacia.jpg"); }
+    background-image: url("/images/stories/tablet/moon-of-appalacia.jpg"); }
     #stories-a #stories-a-content {
       width: 65%; }
   #features-b {
@@ -724,74 +762,77 @@ footer {
     #features-b .card-row {
       padding: 0; }
   #features-c {
-    background-image: url("../images/shared/tablet/bg-beta.jpg");
+    background-image: url("/images/shared/tablet/bg-beta.jpg");
     padding: 0 2.5rem; }
     #features-c h1 {
       width: 65%; }
-  #pricing-b #options-container {
-    flex-direction: column;
-    width: 100%; }
-    #pricing-b #options-container #pro-option {
-      background: #000000;
-      color: #ffffff; }
-      #pricing-b #options-container #pro-option #color-bar {
-        display: block;
-        position: absolute;
+  #pricing-b {
+    padding-top: 100px;
+    padding-bottom: 120px; }
+    #pricing-b #options-container {
+      flex-direction: column;
+      width: 100%; }
+      #pricing-b #options-container #pro-option {
+        background: #000000;
+        color: #ffffff; }
+        #pricing-b #options-container #pro-option #pro-opt-color-bar {
+          display: block;
+          position: absolute;
+          height: 270px;
+          width: 6px;
+          left: 0;
+          top: 0;
+          background: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%); }
+        #pricing-b #options-container #pro-option button {
+          background: #ffffff;
+          color: #000000; }
+        #pricing-b #options-container #pro-option p {
+          color: #dfdfdf; }
+      #pricing-b #options-container .option {
+        width: 94%;
         height: 270px;
-        width: 6px;
-        left: 0;
-        top: 0;
-        background: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%); }
-      #pricing-b #options-container #pro-option button {
-        background: #ffffff;
-        color: #000000; }
-      #pricing-b #options-container #pro-option p {
-        color: #dfdfdf; }
-    #pricing-b #options-container .option {
-      width: 94%;
-      height: 270px;
-      margin: 3%;
-      padding: 0;
-      position: relative;
-      transition: none;
-      transform: none; }
-      #pricing-b #options-container .option h2 {
-        position: absolute;
-        top: 10%;
-        left: 5%; }
-      #pricing-b #options-container .option p {
-        position: absolute;
-        top: 25%;
-        left: 5%;
-        width: 30%;
-        text-align: left; }
-      #pricing-b #options-container .option span {
-        position: absolute;
-        top: 5%;
-        right: 5%; }
-      #pricing-b #options-container .option button {
-        position: absolute;
-        top: 70%;
-        left: 5%;
-        width: 40%; }
-      #pricing-b #options-container .option:hover {
-        background: #dfdfdf;
-        color: #000000;
-        transform: none;
-        transition: none; }
-        #pricing-b #options-container .option:hover:before {
-          display: none; }
-        #pricing-b #options-container .option:hover button {
-          background: #000000;
-          color: #ffffff; }
-          #pricing-b #options-container .option:hover button:hover {
+        margin: 3%;
+        padding: 0;
+        position: relative;
+        transition: none;
+        transform: none; }
+        #pricing-b #options-container .option h2 {
+          position: absolute;
+          top: 10%;
+          left: 5%; }
+        #pricing-b #options-container .option p {
+          position: absolute;
+          top: 25%;
+          left: 5%;
+          width: 30%;
+          text-align: left; }
+        #pricing-b #options-container .option span {
+          position: absolute;
+          top: 5%;
+          right: 5%; }
+        #pricing-b #options-container .option button {
+          position: absolute;
+          top: 70%;
+          left: 5%;
+          width: 40%; }
+        #pricing-b #options-container .option:hover {
+          background: #dfdfdf;
+          color: #000000;
+          transform: none;
+          transition: none; }
+          #pricing-b #options-container .option:hover:before {
+            display: none; }
+          #pricing-b #options-container .option:hover button {
             background: #000000;
-            cursor: pointer; }
+            color: #ffffff; }
+            #pricing-b #options-container .option:hover button:hover {
+              background: #000000;
+              cursor: pointer; }
   #pricing-c #chart {
     width: 650px;
     height: 680px; }
   #pricing-d {
-    background-image: url("../images/shared/tablet/bg-beta.jpg");
+    background-image: url("/images/shared/tablet/bg-beta.jpg");
     padding: 0 3rem; }
     #pricing-d h1 {
       width: 65%; }
@@ -833,7 +874,8 @@ footer {
   .feat-img-tab {
     display: none; }
   .feat-img-phone {
-    display: block; }
+    display: block;
+    height: 294px; }
   .description {
     padding-left: 0;
     padding-right: 0;
@@ -844,12 +886,20 @@ footer {
       width: 80%;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      line-height: 40px; }
     .description p {
       width: 80%;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 20px; }
+    .description h4 {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px; }
+    .description h3 {
+      margin-left: 10%; }
     .description button {
       margin-left: 10%; }
   .card {
@@ -858,6 +908,19 @@ footer {
     width: 80%;
     margin-left: auto;
     margin-right: auto; }
+  .head-cur {
+    text-decoration: underline;
+    border-bottom: none; }
+  .feat-pr-pic-rt {
+    flex-direction: column-reverse;
+    height: 100%; }
+  .feat-pr-desc {
+    height: 300px;
+    padding: 0 34px; }
+    .feat-pr-desc h1 {
+      font-size: 32px; }
+  .card-row {
+    height: 900px; }
   header #header-nav {
     display: none; }
   header #header-btn {
@@ -877,7 +940,8 @@ footer {
     z-index: 5; }
     header #dropdown-menu ul {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      align-items: center; }
       header #dropdown-menu ul li {
         margin: 10px 0 10px 0;
         font-weight: bold; }
@@ -911,6 +975,113 @@ footer {
     padding-bottom: 0; }
   #home-c {
     padding: 5rem 0; }
+  #stories-a {
+    background: #000000;
+    height: 812px;
+    padding: 0;
+    margin: 0; }
+    #stories-a #stories-a-mobile {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      justify-content: flex-end; }
+      #stories-a #stories-a-mobile .description {
+        padding: 0;
+        margin: 34px 0 0 0; }
+      #stories-a #stories-a-mobile .pic-right {
+        height: auto; }
+    #stories-a #stories-a-content {
+      display: none; }
+  #features-a {
+    height: 594px; }
+    #features-a #feat-a-color-bar {
+      height: 6px;
+      width: 128px;
+      top: 366px;
+      left: 34px; }
+  #features-b {
+    height: 1634px; }
+    #features-b #weird-row {
+      margin-top: 0; }
+      #features-b #weird-row #weird-card {
+        margin-left: auto;
+        margin-right: auto; }
+  #features-c {
+    height: 288px;
+    background-image: url("/images/shared/mobile/bg-beta.jpg");
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 32px; }
+    #features-c #feat-c-color-bar {
+      height: 6px;
+      width: 128px;
+      top: 0;
+      left: 34px; }
+    #features-c h1 {
+      font-size: 32px;
+      width: 100%;
+      letter-spacing: 3px; }
+  #pricing-a #price-a-color-bar {
+    position: absolute;
+    height: 6px;
+    width: 128px;
+    left: 0;
+    top: 366px;
+    background: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%); }
+  #pricing-b {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    #pricing-b #options-container .option {
+      height: 407px;
+      display: flex; }
+      #pricing-b #options-container .option h2 {
+        position: relative;
+        top: 0;
+        left: 0; }
+      #pricing-b #options-container .option p {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 90%;
+        text-align: center; }
+      #pricing-b #options-container .option span {
+        position: relative;
+        top: 0;
+        right: 0; }
+      #pricing-b #options-container .option button {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 80%; }
+    #pricing-b #options-container #pro-option #pro-opt-color-bar {
+      height: 6px;
+      width: 100%;
+      top: 0;
+      left: 0; }
+  #pricing-c {
+    display: none; }
+  #pricing-c-mobile {
+    display: flex; }
+  #pricing-d {
+    height: 288px;
+    background-image: url("/images/shared/mobile/bg-beta.jpg");
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 32px; }
+    #pricing-d #price-d-color-bar {
+      height: 6px;
+      width: 128px;
+      top: 0;
+      left: 34px; }
+    #pricing-d h1 {
+      font-size: 32px;
+      width: 100%;
+      letter-spacing: 3px; }
   footer {
     padding: 56px 0;
     height: auto;

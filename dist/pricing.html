@@ -24,23 +24,41 @@
     <a href="index.html">
       <img src="images/shared/desktop/logo.svg" alt="logo">
     </a>
-    <nav>
+    <nav id="header-nav">
       <ul>
         <li class="hr-4"><a href="stories.html">STORIES</a></li>
         <li class="hr-4"><a href="features.html">FEATURES</a></li>
         <li class="hr-4"><a class="head-cur" href="pricing.html">PRICING</a></li>
       </ul>
     </nav>
-    <form style="display: inline" action="https://www.codebyronda.com" target="_blank">
+    <form id="header-btn" action="https://www.codebyronda.com" target="_blank">
       <button class="btn-1">
         GET AN INVITE
       </button>
     </form>
+    <img src="images/shared/mobile/menu.svg" alt="hamburger" id="hamburger-img">
+    <img src="images/shared/mobile/close.svg" alt="close" id="close-img">
+    <div id="dropdown-menu">
+      <nav id='mobile-header-nav'>
+        <ul>
+          <li class="hr-4"><a href="stories.html">STORIES</a></li>
+          <li class="hr-4"><a href="features.html">FEATURES</a></li>
+          <li class="hr-4 head-cur"><a href="pricing.html">PRICING</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-line"></div>
+      <form id="mobile-header-btn" action="https://www.codebyronda.com" target="_blank">
+        <button class="btn-1">
+          GET AN INVITE
+        </button>
+      </form>
+    </div>
+    <div id="overlay"></div>
   </header>
 
   <section id="pricing-a">
     <div class="feat-pr-pic-rt">
-      <div id="color-bar"></div>
+      <div id="price-a-color-bar"></div>
       <div class="feat-pr-desc">
         <h1 class="hr-1-large">PRICING</h1>
         <p class="text">Create your stories, Photosnap is a platform for photographers and visual storytellers. It's the simplest way to create and share your photos.</p>
@@ -74,7 +92,7 @@
         <button class="btn-1">Pick Plan</button>
       </div>
       <div id="pro-option" class="option">
-        <div id="color-bar"></div>
+        <div id="pro-opt-color-bar"></div>
         <h2 class="hr-2">Pro</h2>
         <p class="text">More advanced features available. Recommended for photography veterans and professionals.</p>
         <span id="pro-mon-pr" style="display: block;"><h1 class="hr-1-large">$39.00</h1> per month</span>
@@ -151,8 +169,118 @@
     </div>
   </section>
 
+  <section id="pricing-c-mobile">
+    <h4 id="mob-chart-title" class="hr-4">THE FEATURES</h4>
+    <div id="mob-chart">
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>unlimited story posting</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div class="check"></div>
+          <div class="check"></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>unlimited photo upload</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div class="check"></div>
+          <div class="check"></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>embedding custom content</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div></div>
+          <div class="check"></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>customize metadata</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div></div>
+          <div class="check"></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>advanced metrics</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div></div>
+          <div></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>photo downloads</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div></div>
+          <div></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>search engine indexing</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div></div>
+          <div></div>
+          <div class="check"></div>
+        </div>
+      </div>
+      <div class="mob-chart-row">
+        <h4 class='hr-4'>custom analytics</h4>
+        <div class="mob-chart-row-titles">
+          <p class="text">basic</p>
+          <p class="text">pro</p>
+          <p class="text">business</p>
+        </div>
+        <div class="checks">
+          <div></div>
+          <div></div>
+          <div class="check"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="pricing-d">
-    <div id="color-bar"></div>
+    <div id="price-d-color-bar"></div>
     <h1 class="hr-1-large">WE'RE IN BETA. GET YOUR INVITE TODAY!</h1>
     <form style="display: inline" action="https://www.codebyronda.com" target="_blank">
       <button class="btn-4">
@@ -212,5 +340,6 @@
 
   <!-- JavaScript -->
   <script src="js/toggle.js"></script>
+  <script src="js/hamburger.js"></script>
 </body>
 </html>
