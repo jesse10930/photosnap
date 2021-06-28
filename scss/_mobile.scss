@@ -81,6 +81,13 @@
   // Header
   header {
     padding: 0 10px;
+
+    #hamburger-img,
+    #close-img,
+    #dropdown-menu,
+    #overlay {
+      display: none;
+    }
   }
 
   // Home
