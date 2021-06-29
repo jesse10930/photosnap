@@ -173,12 +173,23 @@
 }
 
 .description {
-  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 5%;
   align-self: center;
+
+  h1 {
+    margin: 10px 0;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  form {
+    margin: 10px 0;
+  }
 }
 
 .home-img-tab,
@@ -411,6 +422,14 @@
   background: $white;
   transform: translate(32px, 0);
   transition: all 0.5s ease;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 // Pricing Chart

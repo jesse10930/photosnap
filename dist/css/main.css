@@ -137,6 +137,12 @@
   justify-content: space-between;
   padding: 5%;
   align-self: center; }
+  .description h1 {
+    margin: 10px 0; }
+  .description p {
+    margin: 10px 0; }
+  .description form {
+    margin: 10px 0; }
 
 .home-img-tab,
 .home-img-phone,
@@ -302,6 +308,12 @@
   background: #ffffff;
   transform: translate(32px, 0);
   transition: all 0.5s ease; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
 
 .chart-row {
   text-transform: uppercase;
@@ -594,6 +606,8 @@ header {
         left: 4px; }
   #pricing-b #options-container {
     display: flex; }
+    #pricing-b #options-container #pro-opt-color-bar {
+      display: none; }
 
 #pricing-c {
   display: flex;
