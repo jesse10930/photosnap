@@ -1,7 +1,7 @@
 (function () {
   // Declare variables
-  const hamburgerImg = document.getElementById('hamburger-img');
-  const closeImg = document.getElementById('close-img');
+  let hamburgerImg = document.getElementById('hamburger-img');
+  let closeImg = document.getElementById('close-img');
   const dropdownMenu = document.getElementById('dropdown-menu');
   const docBody = document.querySelector('body');
   const docHtml = document.querySelector('html');
@@ -28,7 +28,7 @@
   };
 
   // Close Mobile Header when Screen Size Grows
-  const closeMobileHeader = () => {
+  const handleMobileHeader = () => {
     if (window.innerWidth > 500) {
       hamburgerImg.style.display = 'none';
       closeImg.style.display = 'none';
@@ -37,20 +37,24 @@
       docBody.style.overflow = 'visible';
       docHtml.style.overflow = 'visible';
     } else {
-      if (
-        hamburgerImg.style.display === 'block' ||
-        (hamburgerImg.style.display === 'none' &&
-          closeImg.style.display === 'none')
-      ) {
-        hideDropdown();
+      if (!hamburgerImg.style.display && !closeImg.style.display) {
+        return;
       } else {
-        showDropdown();
+        if (
+          hamburgerImg.style.display === 'block' ||
+          (hamburgerImg.style.display === 'none' &&
+            closeImg.style.display === 'none')
+        ) {
+          hideDropdown();
+        } else {
+          showDropdown();
+        }
       }
     }
   };
 
   // Events
-  window.addEventListener('resize', closeMobileHeader);
+  window.addEventListener('resize', handleMobileHeader);
   hamburgerImg.onclick = () => showDropdown();
   closeImg.onclick = () => hideDropdown();
 })();
